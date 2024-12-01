@@ -8,7 +8,7 @@ class TodoImp : TodoRepo {
     object DatabaseConnection {
         private const val URL = "jdbc:mysql://localhost:3306/ktor_db"
         private const val USER = "root"
-        private const val PASSWORD = "Hussnain49*"
+        private const val PASSWORD = "******"
         const val TBL_NAME = "todotbl"
 
         fun getConnection(): Connection {
